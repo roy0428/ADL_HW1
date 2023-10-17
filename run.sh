@@ -1,0 +1,2 @@
+python3 test_1.py --model_name_or_path ./result_1 --context_file ${1} --test_file ${2} --max_length 512 --pad_to_max_length --output_json MC_output.json
+python3 test_2.py --model_name_or_path ./result_2 --do_predict --test_file MC_output.json --max_seq_length 512 --pad_to_max_length --csv_file ${3}
