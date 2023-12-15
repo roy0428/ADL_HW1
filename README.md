@@ -43,7 +43,7 @@ python3 run_qa_no_trainer.py \
     --output_dir result_2
 ```
 
-## Prediction
+## Inference
 After data preprocessing and model training, simply run the following shell script
 ```
 bash run.sh ntuadl2023hw1/context.json ntuadl2023hw1/test.json prediction.csv
